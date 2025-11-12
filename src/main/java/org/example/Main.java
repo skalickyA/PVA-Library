@@ -17,5 +17,7 @@ public class Main {
         System.out.println();
         System.out.println();
         library.ageFilter();
+
+        System.out.println("test");
     }
 }
