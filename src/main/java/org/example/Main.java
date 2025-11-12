@@ -13,6 +13,11 @@ public class Main {
 
 
         Library library = new Library();
+        library.loadBookData();
+        library.printBookData();
+
+
+
 
 
 

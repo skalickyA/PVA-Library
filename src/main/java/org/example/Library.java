@@ -14,4 +14,16 @@ public class Library {
     }
 
 
+    public void loadBookData(){
+        bookManager.loadBookData();
+    }
+
+    public void printBookData(){
+        bookManager.printBookData();
+    }
+
+
+
+
+
 }
