@@ -15,8 +15,17 @@ public class Main {
         library.loadBookData();
         library.printBookData();
 
+        System.out.println();
+        System.out.println();
         library.loadEmployeeData();
         library.printEmployeeData();
+
+
+        System.out.println();
+        System.out.println();
+        library.loadCustomerData();
+        library.printCustomerData();
+
 
     }
 }
