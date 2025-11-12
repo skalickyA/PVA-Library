@@ -36,4 +36,12 @@ public class Library {
             System.out.println(x);
         }
     }
+
+    public void ageFilter(){
+        for (Entita x: entitaArrayList){
+            if (x.getAge() >= 18){
+                System.out.println(x);
+            }
+        }
+    }
 }

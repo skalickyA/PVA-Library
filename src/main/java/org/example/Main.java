@@ -14,5 +14,8 @@ public class Main {
         Library library = new Library();
         library.loadData();
         library.printData();
+        System.out.println();
+        System.out.println();
+        library.ageFilter();
     }
 }
