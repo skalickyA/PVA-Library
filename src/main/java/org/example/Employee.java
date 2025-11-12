@@ -14,7 +14,7 @@ public class Employee extends Entita{
     }
 
     public void printDataCustomer(){
-        System.out.println("Name: " + getName() + " LastName" + getLastName() + " Age: " + getAge() + " Id: " + id);
+        System.out.println("Name: " + getName() + " LastName: " + getLastName() + " Age: " + getAge() + " Id: " + id);
     }
 
 

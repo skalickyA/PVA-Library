@@ -8,9 +8,11 @@ import java.util.ArrayList;
 public class Library {
 
     private BookManager bookManager;
+    private EmployeeManager employeeManager;
 
     public Library() {
         this.bookManager = new BookManager();
+        this.employeeManager = new EmployeeManager();
     }
 
 
@@ -21,6 +23,16 @@ public class Library {
     public void printBookData(){
         bookManager.printBookData();
     }
+
+    public void loadEmployeeData(){
+        employeeManager.loadEmployeeData();
+    }
+
+    public void printEmployeeData(){
+        employeeManager.printEmployeeData();
+    }
+
+
 
 
 

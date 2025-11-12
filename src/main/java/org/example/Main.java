@@ -16,6 +16,9 @@ public class Main {
         library.loadBookData();
         library.printBookData();
 
+        library.loadEmployeeData();
+        library.printEmployeeData();
+
 
 
 

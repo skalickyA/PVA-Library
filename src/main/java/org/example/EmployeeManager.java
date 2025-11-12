@@ -13,7 +13,7 @@ public class EmployeeManager {
     }
 
     public void loadEmployeeData(){
-        String csvSoubor = "C:\\Users\\SkalickýAleš_4wrtv7e\\Downloads\\PVA-Library\\src\\main\\java\\org\\example\\book.csv";
+        String csvSoubor = "C:\\Users\\SkalickýAleš_4wrtv7e\\Downloads\\PVA-Library\\src\\main\\java\\org\\example\\employee.csv";
         String radek;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvSoubor))) {
@@ -22,8 +22,8 @@ public class EmployeeManager {
                 String[] hodnoty = radek.split(",");
                 String jmeno = hodnoty[0];
                 String lastName = hodnoty[1];
-                int age = Integer.parseInt(hodnoty[1]);
-                int id = Integer.parseInt(hodnoty[2]);
+                int age = Integer.parseInt(hodnoty[2]);
+                int id = Integer.parseInt(hodnoty[3]);
 
                 employeeArrayList.add(new Employee(jmeno,lastName,age,id));
             }
@@ -34,7 +34,7 @@ public class EmployeeManager {
 
     public void printEmployeeData(){
         for (Employee x: employeeArrayList){
-            System.out.println(x);
+            x.printDataCustomer();
         }
     }
 
