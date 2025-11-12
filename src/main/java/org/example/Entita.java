@@ -1,0 +1,22 @@
+package org.example;
+
+public class Entita {
+    private String name;
+    private String lastName;
+    private int age;
+
+    public Entita(String name,String lastName, int age) {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Entita{" +
+                "name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}
