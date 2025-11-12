@@ -1,10 +1,8 @@
-package org.example;
+package org.example.Entita.Employee;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import org.example.Entita.Entita;
 
-public class Employee extends Entita{
+public class Employee extends Entita {
     private int id;
 
 

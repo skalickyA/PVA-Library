@@ -1,4 +1,7 @@
-package org.example;
+package org.example.Entita.Custumer;
+
+import org.example.Books.Book;
+import org.example.Entita.Entita;
 
 import java.util.ArrayList;
 

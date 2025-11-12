@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Books;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -13,7 +13,7 @@ public class BookManager {
     }
 
     public void loadBookData(){
-        String csvSoubor = "C:\\Users\\SkalickýAleš_4wrtv7e\\Downloads\\PVA-Library\\src\\main\\java\\org\\example\\book.csv";
+        String csvSoubor = "C:\\Users\\SkalickýAleš_4wrtv7e\\Downloads\\PVA-Library\\src\\main\\java\\org\\example\\Data\\book.csv";
         String radek;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvSoubor))) {

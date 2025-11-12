@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Entita.Employee;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -13,7 +13,7 @@ public class EmployeeManager {
     }
 
     public void loadEmployeeData(){
-        String csvSoubor = "C:\\Users\\SkalickýAleš_4wrtv7e\\Downloads\\PVA-Library\\src\\main\\java\\org\\example\\employee.csv";
+        String csvSoubor = "C:\\Users\\SkalickýAleš_4wrtv7e\\Downloads\\PVA-Library\\src\\main\\java\\org\\example\\Data\\employee.csv";
         String radek;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvSoubor))) {
