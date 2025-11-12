@@ -14,10 +14,6 @@ public class Customer extends Entita {
         this.bookArrayList = new ArrayList<>();
     }
 
-    public Customer(String name, String lastName, int age) {
-        super(name, lastName, age);
-    }
-
     public void printDataCustomer(){
 
         System.out.println("Name: " + getName() + " LastName" + getLastName() + " Age: " + getAge());
