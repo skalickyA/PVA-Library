@@ -11,6 +11,14 @@ public class Book {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
+    }
+
     public String getName() {
         return name;
     }

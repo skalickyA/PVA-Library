@@ -11,12 +11,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Library library = new Library();
-        library.loadData();
-        library.printData();
-        System.out.println();
-        System.out.println();
-        library.ageFilter();
+        BookManager bookManager = new BookManager();
+        bookManager.loadBookData();
+        bookManager.printBookData();
 
 
     }
